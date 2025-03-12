@@ -46,7 +46,7 @@ export const htmlContent = (data: any): string => `<!DOCTYPE html>
         <li><strong>Naam:</strong> ${data.naam}</li>
         <li><strong>Voornaam:</strong> ${data.voornaam}</li>
         <li><strong>Geboortedatum:</strong> ${data.geboortedatum}</li>
-        <li><strong>Haarkleur:</strong> <div style="background-color: ${data.haarkleur}; width: 100px; height: 20px; border-radius: 50%; display: inline-block;">${data.haarkleur}</div> </li>
+        <li><strong>Haarkleur:</strong> <div style="background-color: ${data.haarkleur}; width: 100px; height: 20px; border-radius: 5px; display: inline-block;">${data.haarkleur}</div> </li>
         <li><strong>Lengte:</strong> ${data.lengte} cm</li>
         <li><strong>Gender:</strong> ${data.gender}</li>
         <li><strong>Opmerking:</strong> ${data.opmerking}</li>
