@@ -3,7 +3,6 @@ import "dotenv/config";
 import cors from "cors";
 import express from "express";
 import { sendEmail } from "./utils/mail";
-import mongoose from "mongoose";
 
 // Variables
 const app = express();
